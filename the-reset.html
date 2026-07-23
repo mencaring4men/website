@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<template id="__bundler_thumbnail" data-bg-color="#f5f1ed">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="30" fill="#a8d5e2"/>
+    <line x1="50" y1="20" x2="50" y2="80" stroke="#7fb3c5" stroke-width="2"/>
+    <line x1="50" y1="50" x2="70" y2="35" stroke="#7fb3c5" stroke-width="2"/>
+  </svg>
+</template>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #4a4a4a; background: #f5f1ed; }
+  a { color: #7fb3c5; text-decoration: none; }
+  a:hover { color: #5f97ab; }
+  section[id] { scroll-margin-top: 80px; }
+  @keyframes mirrorCrack { 0%,100% { transform: scale(1); opacity: .15; } 50% { transform: scale(1.05); opacity: .25; } }
+</style>
+</helmet>
+
+<nav style="position:fixed;top:0;left:0;width:100%;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,.05)">
+  <a href="#top" style="font-family:'Newsreader',serif;font-size:1.5rem;font-weight:600;color:#5f97ab">Men Caring4 Men</a>
+  <ul style="display:flex;list-style:none;gap:1.75rem;align-items:center;margin:0">
+    <li><a href="#reality" style="color:#4a4a4a;font-size:.95rem">The Reality</a></li>
+    <li><a href="#peter" style="color:#4a4a4a;font-size:.95rem">Meet Peter</a></li>
+    <li><a href="#session" style="color:#4a4a4a;font-size:.95rem">The Session</a></li>
+    <li><a href="#stories" style="color:#4a4a4a;font-size:.95rem">Stories</a></li>
+    <li><a href="#for-you" style="color:#4a4a4a;font-size:.95rem">Is It For You</a></li>
+    <li><a href="#faq" style="color:#4a4a4a;font-size:.95rem">Questions</a></li>
+    <li><a href="#booking" style="background:#7fb3c5;color:#fff;padding:.7rem 1.4rem;border-radius:4px;font-weight:600;font-size:.9rem" style-hover="background:#a8d5e2;color:#fff">FREE ALIGNMENT CALL</a></li>
+  </ul>
+</nav>
+
+<section id="top" style="margin-top:60px;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f5f1ed 0%,#e8f4f8 100%);padding:2rem;position:relative;overflow:hidden">
+  <div style="max-width:1200px;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:center;position:relative;z-index:10">
+    <div style="text-align:left">
+    <p style="color:#a85a4a;font-size:.9rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:1.25rem">Men Caring4 Men — For Men Who Give Everything</p>
+    <h1 style="font-family:'Newsreader',serif;font-weight:500;font-size:clamp(2.5rem,8vw,4.5rem);line-height:1.15;margin-bottom:1rem;color:#1a1a1a;text-wrap:balance">Understanding is Where Change Begins.</h1>
+    <p style="font-family:'Newsreader',serif;font-style:italic;font-size:clamp(1.5rem,4vw,2rem);color:#a85a4a;margin-bottom:1.5rem">Safety. Honesty. Listening. Clarity.</p>
+    <p style="font-size:1.2rem;color:#4a4a4a;margin:0 0 2rem;max-width:700px;text-wrap:pretty">You're not lazy. You're not weak. You're a man who cares deeply, in a system that took more than you had to give. The way back starts with one honest conversation — with a man who has been exactly where you are.</p>
+    <div style="display:inline-block;border:2px solid #7fb3c5;padding:1rem 2rem;border-radius:50px;margin-bottom:2rem;font-size:1.05rem;font-weight:600;color:#5f97ab">{{ price }} · The Reset · 90 Minutes · 1:1 With Peter</div>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem">
+      <a href="#booking" style="background:#7fb3c5;color:#fff;padding:1rem 2rem;border-radius:4px;font-weight:600;font-size:1rem" style-hover="background:#a8d5e2;color:#fff">Book Your Free Alignment Call</a>
+      <a href="#session" style="background:transparent;color:#5f97ab;padding:1rem 2rem;border:2px solid #7fb3c5;border-radius:4px;font-weight:600;font-size:1rem" style-hover="background:#d4e8f0">What Happens in the Room</a>
+    </div>
+    <p style="color:#4a4a4a;font-size:.95rem">One session. Real clarity. Canberra & online.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center">
+      <p style="font-size:.85rem;color:#4a4a4a;margin-bottom:.9rem;letter-spacing:.5px">Drag the slider — watch it come together</p>
+      <div style="position:relative;width:300px;height:240px;border-radius:20px;overflow:hidden;background:radial-gradient(circle at 50% 45%,#ffffff,#eef5f8 78%);box-shadow:0 20px 40px rgba(26,26,26,.1);border:1px solid rgba(127,179,197,.25)">{{ graphic }}</div>
+      <div ref="{{ trackRef }}" onPointerDown="{{ onTrackDown }}" onPointerMove="{{ onTrackMove }}" onPointerUp="{{ onTrackUp }}" style="position:relative;width:300px;height:34px;margin-top:1rem;cursor:ew-resize;touch-action:none;display:flex;align-items:center">
+        <div style="position:absolute;left:0;right:0;height:4px;border-radius:2px;background:linear-gradient(90deg,#c9d3d8,#a8d5e2)"></div>
+        <div style="position:absolute;top:50%;width:26px;height:26px;border-radius:50%;background:#fff;left:{{ knobPct }};transform:translate(-50%,-50%);box-shadow:0 3px 10px rgba(26,26,26,.22);border:2px solid #7fb3c5"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;width:300px;margin-top:.5rem;font-size:.85rem">
+        <span style="color:#9aa4a8;font-weight:600">Misunderstanding</span>
+        <span style="color:#5f97ab;font-weight:600">Understanding</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reality" style="background:#e8f4f8;padding:5rem 2rem">
+  <div style="max-width:1200px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a;text-align:center">The Reality</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center">
+      <div>
+        <h3 style="font-family:'Newsreader',serif;font-size:1.6rem;margin-bottom:1rem;color:#1a1a1a">You're Not Alone</h3>
+        <p style="margin-bottom:1rem;font-size:1.05rem;line-height:1.8">Teachers, healthcare workers, youth workers, therapists — men in helping professions are burning out at unprecedented rates. You see the gap between what you want to give and what the system allows. You care deeply. And that's exactly what's breaking you.</p>
+        <p style="margin-bottom:1rem;font-size:1.05rem;line-height:1.8">The system wasn't designed for you to thrive. It was designed to extract everything you have.</p>
+        <p style="font-size:1.05rem;line-height:1.8"><span style="color:#a85a4a;font-weight:600">But here's what's true:</span> You can understand what's happening. You can find clarity about your patterns. And you can make a different choice.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.25rem">
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="font-size:2rem;font-weight:700;color:#5f97ab">50%</div>
+          <div style="color:#4a4a4a;font-size:.95rem">of teachers leave within 5 years</div>
+        </div>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="font-size:2rem;font-weight:700;color:#5f97ab">$153K</div>
+          <div style="color:#4a4a4a;font-size:.95rem">average cost per psychological injury claim</div>
+        </div>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="font-size:2rem;font-weight:700;color:#5f97ab">7 of 9</div>
+          <div style="color:#4a4a4a;font-size:.95rem">Australians who die by suicide each day are men</div>
+        </div>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="font-size:2rem;font-weight:700;color:#5f97ab">36%</div>
+          <div style="color:#4a4a4a;font-size:.95rem">of Australian men seek help for mental health</div>
+        </div>
+        <p style="font-size:.8rem;color:#7a7a7a;line-height:1.6;margin-top:.25rem">Sources: Australian Men's Health Forum &amp; ABS 2024 data; national teacher-retention and workers'-compensation reporting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="peter" style="background:#fff;padding:5rem 2rem">
+  <div style="max-width:1200px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a;text-align:center">Meet Peter</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center">
+      <div style="width:100%;aspect-ratio:1;background:#d4e8f0;border-radius:8px;overflow:hidden"><img src="assets/peter-v2.jpg" alt="Peter Curtis" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+      <div>
+        <h3 style="font-family:'Newsreader',serif;font-size:1.8rem;margin-bottom:1rem;color:#1a1a1a">I Know What It's Like To Hit The Wall</h3>
+        <p style="margin-bottom:1.25rem;font-size:1.05rem;line-height:1.8">I spent 25 years in the classroom. The last 15 were in the ACT public system. I was once declared unfit to teach. I know what it looks like when a man in this profession hits the wall — and I know how little support exists for him in the space between "still showing up" and going "on workers' comp."</p>
+        <p style="margin-bottom:1.25rem;font-size:1.05rem;line-height:1.8">I recovered. I retrained. And now I work specifically with men in helping professions who are heading in the same direction.</p>
+        <p style="font-size:1.05rem;line-height:1.8">I'm not a therapist selling you another diagnosis. I'm a former teacher who understands how systems can fail the individual, I have learned and developed a process to help you appreciate and understand yourself.</p>
+        <div style="background:#e8f4f8;padding:1.5rem;border-radius:8px;margin-top:2rem">
+          <h4 style="color:#5f97ab;margin-bottom:.5rem">Background</h4>
+          <p style="font-size:.98rem">25+ years in education · Somatic Coaching · Breathwork Facilitation · Trauma-Informed Practice · Nervous System Regulation · Group Facilitation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="session" style="background:#e8f4f8;padding:5rem 2rem">
+  <div style="max-width:1200px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a;text-align:center">The Reset</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem">
+      <div style="display:flex;flex-direction:column;gap:1.5rem">
+        <h3 style="font-family:'Newsreader',serif;font-size:1.5rem;color:#1a1a1a">Understanding is Where Change Begins</h3>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="display:flex;align-items:center;justify-content:center;background:#7fb3c5;color:#fff;width:40px;height:40px;border-radius:50%;font-weight:700;margin-bottom:.75rem">1</div>
+          <h4 style="color:#1a1a1a;margin-bottom:.5rem">Safety Comes Before Honesty</h4>
+          <p style="color:#4a4a4a;font-size:.95rem">You tell me what happened, what it cost you, and what you're ready to do about it. No judgment. No agenda. Just listening in a space where you feel safe enough to be honest.</p>
+        </div>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="display:flex;align-items:center;justify-content:center;background:#7fb3c5;color:#fff;width:40px;height:40px;border-radius:50%;font-weight:700;margin-bottom:.75rem">2</div>
+          <h4 style="color:#1a1a1a;margin-bottom:.5rem">Listening Reveals Where the Work Begins</h4>
+          <p style="color:#4a4a4a;font-size:.95rem">Together we identify what's actually driving the reactivity, the numbness, the exhaustion that sleep doesn't fix. We look at the nervous system patterns that keep you stuck, not where others think you should start, but where your own life is asking for attention.</p>
+        </div>
+        <div style="background:#fff;padding:1.5rem;border-radius:8px;border-left:4px solid #7fb3c5">
+          <div style="display:flex;align-items:center;justify-content:center;background:#7fb3c5;color:#fff;width:40px;height:40px;border-radius:50%;font-weight:700;margin-bottom:.75rem">3</div>
+          <h4 style="color:#1a1a1a;margin-bottom:.5rem">Self-Knowledge for Lasting Change</h4>
+          <p style="color:#4a4a4a;font-size:.95rem">You walk out with a clear map of what's happening and one concrete first step forward. For many men, this session alone is the turning point, empowering you to make choices that align with who you are and the life you want to live.</p>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.5rem">
+        <h3 style="font-family:'Newsreader',serif;font-size:1.5rem;color:#1a1a1a">What You'll Get</h3>
+        <div style="display:flex;gap:1rem">
+          <div style="width:50px;height:50px;background:#a8d5e2;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0">🎯</div>
+          <div><h4 style="color:#1a1a1a;margin-bottom:.25rem">Real Understanding</h4><p style="color:#4a4a4a;font-size:.95rem">Understand what's actually driving your patterns — not what you think should be driving them. Self-knowledge is the starting point.</p></div>
+        </div>
+        <div style="display:flex;gap:1rem">
+          <div style="width:50px;height:50px;background:#a8d5e2;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0">🛠️</div>
+          <div><h4 style="color:#1a1a1a;margin-bottom:.25rem">Practical Support</h4><p style="color:#4a4a4a;font-size:.95rem">Leave with something you can use the same day. Not theory. Not homework. Actionable insight and genuine support.</p></div>
+        </div>
+        <div style="display:flex;gap:1rem">
+          <div style="width:50px;height:50px;background:#a8d5e2;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0">🗺️</div>
+          <div><h4 style="color:#1a1a1a;margin-bottom:.25rem">A Clear Path Forward</h4><p style="color:#4a4a4a;font-size:.95rem">Know exactly what your first move is. Whether it's deeper work with Peter or something else entirely, you'll have a begun the process for meaningful change.</p></div>
+        </div>
+        <div style="display:flex;gap:1rem">
+          <div style="width:50px;height:50px;background:#a8d5e2;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0">💬</div>
+          <div><h4 style="color:#1a1a1a;margin-bottom:.25rem">Being Truly Heard</h4><p style="color:#4a4a4a;font-size:.95rem">Sit with someone who listens to understands. Who has experienced the systems, understands the pressures, and what it costs to care deeply. Co-creating a space of safety and genuine support.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stories" style="background:#fff;padding:5rem 2rem">
+  <div style="max-width:900px;margin:0 auto;text-align:center">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a">What Men Say Afterward</h2>
+    <figure style="margin:0 0 2rem">
+      <blockquote style="font-family:'Newsreader',serif;font-style:italic;font-size:1.5rem;line-height:1.6;color:#1a1a1a;margin:0;text-wrap:pretty">"I walked in thinking I just needed to push through. Ninety minutes with Peter and, for the first time in years, I understood what was actually happening to me. That understanding changed everything."</blockquote>
+      <figcaption style="margin-top:1.25rem;color:#5f97ab;font-weight:600">— High-school teacher, Canberra</figcaption>
+    </figure>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;text-align:left;margin-top:2.5rem">
+      <div style="background:#e8f4f8;padding:1.75rem;border-radius:8px">
+        <p style="font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.7;color:#1a1a1a;margin-bottom:1rem">"He's been where I am. I didn't have to explain the system — he already knew it. That's what made me finally open up."</p>
+        <p style="color:#5f97ab;font-weight:600;font-size:.95rem">— Youth worker</p>
+      </div>
+      <div style="background:#e8f4f8;padding:1.75rem;border-radius:8px">
+        <p style="font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.7;color:#1a1a1a;margin-bottom:1rem">"Not therapy, not a lecture. Just one honest conversation that gave me a first step I could actually take."</p>
+        <p style="color:#5f97ab;font-weight:600;font-size:.95rem">— Registered nurse</p>
+      </div>
+    </div>
+    <p style="font-size:.85rem;color:#7a7a7a;margin-top:1.5rem">Shared with permission. Names withheld for privacy.</p>
+  </div>
+</section>
+
+<section id="for-you" style="background:#e8f4f8;padding:5rem 2rem">
+  <div style="max-width:1200px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a;text-align:center">Is It For You?</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
+      <div style="padding:1.75rem;background:#e8f4f8;border-radius:8px">
+        <h4 style="color:#5f97ab;margin-bottom:.75rem;font-size:1.15rem">✓ This is for you if:</h4>
+        <p style="color:#4a4a4a;font-size:.98rem;line-height:1.8">You're a man in a helping profession (teacher, healthcare, youth work, therapy). You care deeply about your work. You can feel burnout on the horizon. You're conscious that something needs to change. You're ready to understand yourself better and create lasting change.</p>
+      </div>
+      <div style="padding:1.75rem;background:#e8f4f8;border-radius:8px">
+        <h4 style="color:#a85a4a;margin-bottom:.75rem;font-size:1.15rem">→ This might not be for you if:</h4>
+        <p style="color:#4a4a4a;font-size:.98rem;line-height:1.8">You're looking for quick fixes or motivation hacks. You're not ready to be honest about where you are. You want someone to tell you what to do instead of discovering your own path to understanding.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:#fff;padding:5rem 2rem">
+  <div style="max-width:800px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;margin-bottom:2.5rem;color:#1a1a1a;text-align:center">Questions</h2>
+    <sc-for list="{{ faqs }}" as="item" hint-placeholder-count="5">
+      <div style="background:#fff;margin-bottom:1rem;border-radius:8px;overflow:hidden">
+        <button onClick="{{ item.toggle }}" style="padding:1.5rem;background:#fff;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1rem;color:#1a1a1a;border:none;width:100%;text-align:left;font-family:inherit" style-hover="background:#d4e8f0">
+          <span>{{ item.q }}</span>
+          <span style="font-size:1.5rem;flex-shrink:0;margin-left:1rem;color:#7fb3c5">{{ item.sign }}</span>
+        </button>
+        <sc-if value="{{ item.open }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:0 1.5rem 1.5rem;color:#4a4a4a;line-height:1.8">{{ item.a }}</div>
+        </sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<section id="booking" style="background:#a8d5e2;color:#fff;text-align:center;padding:5rem 2rem">
+  <div style="max-width:700px;margin:0 auto">
+    <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:2.5rem;color:#fff;margin-bottom:1rem">Ready for Understanding?</h2>
+    <p style="color:rgba(255,255,255,.92);margin-bottom:2rem;font-size:1.15rem">The Reset session is {{ price }} for 90 minutes, 1:1 with Peter. Not sure if it's right for you? Start with a free 15-minute alignment call — no cost, no pressure.</p>
+    <a href="{{ bookingUrl }}" style="background:#fff;color:#5f97ab;padding:1rem 2.5rem;border-radius:4px;font-weight:700;font-size:1.1rem;display:inline-block" style-hover="box-shadow:0 10px 25px rgba(0,0,0,.2)">Book Your Free Alignment Call</a>
+  </div>
+</section>
+
+<footer style="background:#1a1a1a;color:#fff;padding:2rem;text-align:center">
+  <p style="margin-bottom:.5rem">© 2026 Men Caring4 Men. All rights reserved.</p>
+  <p><a href="mailto:breathpj1234@gmail.com" style="color:#a8d5e2">Contact Peter</a> · <a href="privacy.html" style="color:#a8d5e2">Privacy Policy</a> · <a href="terms.html" style="color:#a8d5e2">Terms of Service</a></p>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200,&quot;height&quot;:900},&quot;price&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;$190&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;bookingUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://calendly.com/breathpj1234/align&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  state = { open: null, t: 0, dragging: false, touched: false };
+  trackRef = React.createRef();
+  W = 300; H = 240;
+
+  segs() {
+    if (this._segs) return this._segs;
+    let seed = 9;
+    const rnd = () => { seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; };
+    const cx = this.W / 2, cy = this.H / 2;
+    const rings = [{ n: 6, rx: 30, ry: 25 }, { n: 10, rx: 62, ry: 50 }, { n: 14, rx: 96, ry: 78 }];
+    const arr = [];
+    rings.forEach((ring, ri) => {
+      for (let i = 0; i < ring.n; i++) {
+        const ang = (i / ring.n) * Math.PI * 2 + ri * 0.4;
+        arr.push({
+          ox: cx + ring.rx * Math.cos(ang),
+          oy: cy + ring.ry * Math.sin(ang),
+          orot: (ang * 180) / Math.PI + 90,
+          cxr: 24 + rnd() * (this.W - 48),
+          cyr: 22 + rnd() * (this.H - 44),
+          crot: rnd() * 360,
+          len: 14 + rnd() * 8,
+        });
+      }
+    });
+    this._segs = arr;
+    return arr;
+  }
+
+  componentDidMount() {
+    this._start = performance.now();
+    const tick = (now) => {
+      if (this.state.touched) return;
+      const p = Math.min(1, (now - this._start) / 2400);
+      const e = p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+      this.setState({ t: e });
+      if (p < 1) this._raf = requestAnimationFrame(tick);
+    };
+    this._raf = requestAnimationFrame(tick);
+  }
+  componentWillUnmount() { if (this._raf) cancelAnimationFrame(this._raf); }
+
+  updateT(e) {
+    const r = this.trackRef.current.getBoundingClientRect();
+    const t = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+    this.setState({ t, touched: true });
+  }
+  onTrackDown = (e) => { e.currentTarget.setPointerCapture(e.pointerId); this.setState({ dragging: true, touched: true }); this.updateT(e); };
+  onTrackMove = (e) => { if (this.state.dragging) this.updateT(e); };
+  onTrackUp = () => this.setState({ dragging: false });
+
+  buildGraphic(t) {
+    const lerp = (a, b) => a + (b - a) * t;
+    const mix = (a, b) => Math.round(a + (b - a) * t);
+    const grey = [170, 179, 184], blue = [95, 151, 171];
+    const els = this.segs().map((s, i) => {
+      const x = lerp(s.cxr, s.ox), y = lerp(s.cyr, s.oy);
+      const rot = lerp(s.crot, s.orot);
+      const col = `rgb(${mix(grey[0], blue[0])},${mix(grey[1], blue[1])},${mix(grey[2], blue[2])})`;
+      return React.createElement('div', {
+        key: i,
+        style: {
+          position: 'absolute', left: x + 'px', top: y + 'px',
+          width: s.len + 'px', height: '3px', borderRadius: '3px',
+          background: col, opacity: lerp(0.32, 0.95),
+          transform: `translate(-50%,-50%) rotate(${rot}deg)`,
+        },
+      });
+    });
+    const bloom = React.createElement('div', {
+      key: 'bloom',
+      style: {
+        position: 'absolute', left: '50%', top: '50%', width: '70px', height: '58px',
+        transform: 'translate(-50%,-50%)', borderRadius: '50%',
+        background: 'radial-gradient(circle,rgba(127,179,197,0.35),rgba(127,179,197,0))',
+        opacity: Math.max(0, (t - 0.5) * 2),
+      },
+    });
+    return React.createElement('div', { style: { position: 'absolute', inset: 0 } }, bloom, ...els);
+  }
+
+  renderVals() {
+    const price = this.props.price ?? "$190";
+    const raw = [
+      { q: "Is this therapy?", a: "No. This is not therapy. It's a focused conversation with someone who understands your world. The goal is understanding and self-knowledge, not diagnosis or treatment. If you need clinical mental health support, we can talk about that, but this session is about helping you discover where your healing begins." },
+      { q: "I'm not much of a talker. Will this work for me?", a: "Yes. The session isn't about being eloquent or having all the words. It's about being honest. I'm trained to listen deeply and ask questions that may help you discover what you already know but haven't articulated yet. Many men who say they're \"not talkers\" find this session different because it's not about talking — it's about being understood and feeling safe enough to speak your truth." },
+      { q: "Why " + price + "?", a: "This is a professional service delivered by someone with 25+ years of experience and specialized training. The price reflects the value of that expertise and the depth of the work. It's also accessible — not prohibitively expensive, but significant enough that you're making a real commitment. If you go on to deeper work with Peter, your " + price + " is credited in full." },
+      { q: "What happens after the session?", a: "That's entirely up to you. Some men find the session itself is the turning point they needed. Others go on to deeper work with Peter — whether that's the 10-week group program or ongoing 1:1 sessions. Some take what they learned and work with it on their own. There's no pressure, no upsell. You'll leave with clarity about what makes sense for you and a foundation for meaningful change." },
+      { q: "In person or online?", a: "Both. If you're in Canberra, we can meet in person. If you're elsewhere, we work online. The work is the same either way — it's about the conversation and the understanding, not the location." },
+    ];
+    const faqs = raw.map((f, i) => ({
+      q: f.q,
+      a: f.a,
+      open: this.state.open === i,
+      sign: this.state.open === i ? "−" : "+",
+      toggle: () => this.setState(s => ({ open: s.open === i ? null : i })),
+    }));
+    return {
+      price, faqs,
+      bookingUrl: this.props.bookingUrl ?? "#",
+      graphic: this.buildGraphic(this.state.t),
+      trackRef: this.trackRef,
+      onTrackDown: this.onTrackDown, onTrackMove: this.onTrackMove, onTrackUp: this.onTrackUp,
+      knobPct: `${this.state.t * 100}%`,
+    };
+  }
+}
+</script>
+</body>
+</html>
