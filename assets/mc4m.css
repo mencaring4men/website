@@ -710,9 +710,9 @@ section.tight{padding:72px 0}
 /* photo strip */
 .photostrip{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(2,1fr);
   gap:18px;
-  max-width:960px;
+  max-width:760px;
   margin:64px auto 0;
   padding:0 24px;
 }
