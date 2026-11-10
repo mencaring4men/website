@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Inter, Verdana, Arial, sans-serif">
+  <!-- The Crossing: single-colour version (deep blue on transparent) for print, letterhead, one-colour uses. -->
+  <!-- left bank -->
+  <path d="M40,330 L280,322 L288,520 L32,520 Z" fill="#5f97ab" opacity="0.10"/>
+  <path d="M40,330 L280,322" stroke="#5f97ab" stroke-width="3" fill="none" opacity="0.7"/>
+  <text x="60" y="260" font-family="Newsreader, Georgia, serif" font-size="34" fill="#5f97ab">Surviving</text>
+  <text x="60" y="292" font-size="16" fill="#5f97ab" opacity="0.75">reaction &#183; avoidance &#183; isolation</text>
+
+  <!-- right bank -->
+  <path d="M920,314 L1160,322 L1168,520 L912,520 Z" fill="#5f97ab" opacity="0.16"/>
+  <path d="M920,314 L1160,322" stroke="#5f97ab" stroke-width="3" fill="none" opacity="0.8"/>
+  <text x="940" y="228" font-family="Newsreader, Georgia, serif" font-size="34" fill="#5f97ab">Living with</text>
+  <text x="940" y="264" font-family="Newsreader, Georgia, serif" font-size="34" fill="#5f97ab">intention</text>
+  <text x="1160" y="296" text-anchor="end" font-size="16" fill="#5f97ab" opacity="0.75">choice &#183; engagement &#183; connection</text>
+
+  <!-- bridge deck -->
+  <path d="M280,340 C440,296 760,292 920,332" fill="none" stroke="#5f97ab" stroke-width="6" stroke-linecap="round"/>
+  <text x="600" y="218" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="22" fill="#5f97ab">the eight weeks</text>
+
+  <!-- four pillars -->
+  <g stroke="#5f97ab" stroke-width="14" stroke-linecap="round" opacity="0.85">
+    <line x1="380" y1="322" x2="380" y2="512"/>
+    <line x1="540" y1="306" x2="540" y2="512"/>
+    <line x1="700" y1="304" x2="700" y2="512"/>
+    <line x1="860" y1="322" x2="860" y2="512"/>
+  </g>
+  <g font-size="19" fill="#5f97ab" text-anchor="middle">
+    <text x="380" y="546">Responsibility</text>
+    <text x="540" y="546">Willingness</text>
+    <text x="700" y="546">Practice</text>
+    <text x="860" y="546">Support</text>
+  </g>
+
+  <!-- the man crossing -->
+  <g stroke="#5f97ab" stroke-width="3.5" fill="none" stroke-linecap="round">
+    <circle cx="618" cy="252" r="12"/>
+    <path d="M618,264 L618,296 M618,274 L600,286 M618,274 L636,286 M618,296 L604,320 M618,296 L632,318"/>
+  </g>
+
+  <!-- water -->
+  <g fill="none" stroke="#5f97ab" stroke-width="3.5" opacity="0.55" stroke-linecap="round">
+    <path d="M310,430 q26,-11 52,0 q26,11 52,0 q26,-11 52,0 q26,11 52,0 q26,-11 52,0 q26,11 52,0 q26,-11 52,0 q26,11 52,0 q26,-11 52,0 q26,11 52,0 q26,-11 52,0"/>
+    <path d="M336,466 q26,-10 52,0 q26,10 52,0 q26,-10 52,0 q26,10 52,0 q26,-10 52,0 q26,10 52,0 q26,-10 52,0 q26,10 52,0 q26,-10 52,0 q26,10 52,0" opacity="0.4"/>
+  </g>
+  <text x="600" y="508" font-size="17" fill="#5f97ab" text-anchor="middle" font-style="italic">the breath runs underneath everything</text>
+</svg>
