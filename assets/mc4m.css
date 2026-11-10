@@ -999,3 +999,20 @@ footer .fine{font-size:12px;color:var(--muted);margin-top:28px}
 
 /* the sitewide menu is the one sticky bar; the CTA shows when you are on the event page */
 .nav .nav-cta[aria-current]{background:var(--blue-deep);color:#fff}
+
+/* phones: logo and button share the top row, the four menu items fit one row below */
+@media (max-width:420px){
+  .nav-in{padding-left:14px;padding-right:14px}
+  .nav ul{gap:10px;justify-content:space-between}
+  .nav ul a{font-size:13px}
+  .nav .brand .wm{font-size:17px}
+  .nav .nav-cta{padding:9px 14px;font-size:13.5px}
+}
+@media (max-width:345px){
+  .nav-in{padding-left:10px;padding-right:10px}
+  .nav ul{gap:6px}
+  .nav ul a{font-size:12px}
+  .nav .brand svg{width:24px;height:24px}
+  .nav .brand .wm{font-size:15px}
+  .nav .nav-cta{padding:8px 10px;font-size:12.5px}
+}
