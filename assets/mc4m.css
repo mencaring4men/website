@@ -718,6 +718,7 @@ section.tight{padding:72px 0}
 }
 @media (max-width:720px){.photostrip{grid-template-columns:1fr}}
 .photostrip .ph{aspect-ratio:3/2}
+.photostrip.solo{grid-template-columns:1fr;max-width:440px}
 
 /* peter card */
 .peter-wrap{max-width:860px;margin:0 auto;padding:0 24px;position:relative}
